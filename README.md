@@ -11,18 +11,12 @@ Monster Maker is a basic viewer for creating discs corresponding to specific mon
 
 USAGE:
 
-Select the primary type and the stat seeds that correspond to your desired monster.
-
-Click Browse or manually enter a path and filename. Do not add an extension to your filename.
-
-When ready, click "Make Monster!" and a .cue and .bin will be created in your specified directory.
+Select the primary type and the stat seeds that correspond to your desired monster. Click Browse or manually enter a path and filename. Do not add an extension to your filename. When ready, click "Make Monster!" and a .cue and .bin will be created in your specified directory.
 
 
 TECH DETAILS:
 
-Most of the data is hard-coded into the main file for simplicity.
-
-Primary monster type is decided by the total minutes of the disc and the number of tracks it has. An in-game table is used to determine what monster type you get; I have simplified it for now so that it conforms to a constant ToC and makes a disc of the correct size.
+Most of the data is hard-coded into the main file for simplicity. Primary monster type is decided by the total minutes of the disc and the number of tracks it has. An in-game table is used to determine what monster type you get; I have simplified it for now so that it conforms to a constant ToC and makes a disc of the correct size.
 
 Two stat seeds determine the overall stats of the monster. The first is derived from the disc seconds. The second is determined from the seconds in the first track, or the starting position of the 2nd track. The second stat seed also determines the subtype of the monster.
 
