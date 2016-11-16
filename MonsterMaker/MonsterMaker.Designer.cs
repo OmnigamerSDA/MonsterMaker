@@ -135,7 +135,7 @@
             this.seed1Box.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seed1Box.Location = new System.Drawing.Point(45, 154);
             this.seed1Box.Maximum = new decimal(new int[] {
-            59,
+            39,
             0,
             0,
             0});
@@ -149,7 +149,7 @@
             this.seed2Box.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seed2Box.Location = new System.Drawing.Point(278, 154);
             this.seed2Box.Maximum = new decimal(new int[] {
-            59,
+            39,
             0,
             0,
             0});
